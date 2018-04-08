@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <!-- <item
+        android:id="@+id/catatan_pesanan"
+        android:title="Catatan"
+        android:icon="@drawable/ic_catatan"
+        app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/pesanan_badge"
+        android:title="Pesanan"
+        app:actionLayout="@layout/view_costume_action_item_layout"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/cara_penggunaan_menu"
+        android:title="Cara penggunaan"
+        android:orderInCategory="1"/>
+
+    <item
+        android:id="@+id/tentang_app_menu"
+        android:title="Tentang App"
+        android:orderInCategory="2"/>
+</menu>
